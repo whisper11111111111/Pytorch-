@@ -4,9 +4,13 @@
 （AI辅助生成，可以用来水《机器视觉》课程大作业）
 # 安装
 ## 创建虚拟环境（建议）
-``
-conda create -n handwriting_env``
+``conda create -n handwriting_env``
+
 ``conda actevate handwriting_env``
+
+### 安装以下Python库
+
+``pip install torch torchvision matplotlib numpy pillow PyQt5``
 ## 模型训练
 ``python mnist.py --mode train``  
 
